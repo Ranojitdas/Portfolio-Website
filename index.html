@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranojit Das - App Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
+</head>
+<body>
+    <div id="vanta-background"></div>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Ranojit Das</a>
+            <button class="hamburger-menu" aria-label="Toggle navigation menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <div class="nav-container">
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/ranojit-das" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Ranojitdas" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://hackerrank.com/Ranojit_Das" target="_blank"><i class="fab fa-hackerrank"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="nav-overlay"></div>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <div class="hero-grid">
+                    <div class="hero-text">
+                        <h1 class="animated-text">Ranojit Das</h1>
+                        <p class="tagline animated-text">Innovating the Future with Cutting-Edge Apps!</p>
+                        <div class="hero-description">
+                            <p>Passionate app developer crafting innovative solutions with modern technologies</p>
+                        </div>
+                        <div class="cta-buttons">
+                            <a href="projects.html" class="cta-button">View My Work</a>
+                            <a href="contact.html" class="cta-button secondary">Get in Touch</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1743231021/ChatGPT_Image_Mar_29_2025_12_38_49_AM_ehzesk.png" alt="Ranojit Das" class="front-image">
+                            <img src="https://res.cloudinary.com/deuhpyrku/image/upload/v1743231619/WhatsApp_Image_2025-03-09_at_23.12.06_4df00e29_edoyou.jpg" alt="Ranojit Das" class="back-image">
+                            <div class="image-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <span>Scroll Down</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- About Me Preview -->
+        <section id="about-preview">
+            <div class="about-preview-content">
+                <h2>About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I am a passionate Full Stack Developer with a strong foundation in both front-end and back-end technologies. My journey in software development began with a deep curiosity about how things work on the internet, which led me to pursue a career in App development.</p>
+                        <p>With a Bachelor's degree in Computer Science and Engineering from NIAMT, I have developed a comprehensive understanding of software development principles and best practices. My academic background, combined with practical experience, has equipped me with the skills needed to create efficient, scalable, and user-friendly applications.</p>
+                    </div>
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-details">
+                            <h3>Bachelor of Technology</h3>
+                            <p style="color:rgb(44, 132, 209)">Computer Science and Engineering</p>
+                            <p>National Institute  of Advanced Manufacturing Technology</p>
+                            <p>CGPA: 8.5/10</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section id="featured-projects">
+            <h2>Featured Projects</h2>
+            <div class="project-carousel">
+                <div class="project-card">
+                    <div class="project-icon">🔥</div>
+                    <h3>Philatelix</h3>
+                    <p>E-commerce platform for philatelists</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">GetX</span>
+                        <span class="tech-tag">REST API</span>
+                    </div>
+                    <a href="https://github.com/Ranojitdas/Philately" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🪙</div>
+                    <h3>HeritageHub</h3>
+                    <p>Cultural heritage and crafts platform</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">FireBase</span>
+                        <span class="tech-tag">GetX</span>
+                        <span class="tech-tag">Cloudinary</span>
+                    </div>
+                    <a href="https://github.com/Ranojitdas/HeritageHub" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">💼</div>
+                    <h3>Employee Payroll System</h3>
+                    <p>Java-based payroll management</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Dart</span>
+                        <span class="tech-tag">Flutter</span>
+                    </div>
+                    <a href="https://github.com/Ranojitdas/Basic-Atm-app" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🌤️</div>
+                    <h3>Weatherly</h3>
+                    <p>Dynamic weather app with time-based backgrounds</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">OpenWeather API</span>
+                        <span class="tech-tag">FireBase</span>
+                        <span class="tech-tag">GetX</span>
+                    </div>
+                    <a href="projects.html#weatherly" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🏧</div>
+                    <h3>Basic ATM App</h3>
+                    <p>Flutter-based ATM application with secure transactions</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Dart</span>
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">OOP</span>
+                    </div>
+                    <a href="https://github.com/Ranojitdas/Basic-Atm-app" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="skills-preview">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Development</h3>
+                    <p>Dart, Kotlin, Ios, Android</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend & Database</h3>
+                    <p> Java, MySQL,  Firebase</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>Flutter, JetPack Compose, HTML, CSS</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-preview">
+            <div class="contact-preview-content">
+                <h2>Get in Touch</h2>
+                <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                <div class="social-buttons">
+                    <a href="https://linkedin.com/in/ranojit-das" class="social-button linkedin">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/Ranojitdas" class="social-button github">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    <a href="https://hackerrank.com/yourusername" class="social-button hackerrank">
+                        <i class="fab fa-hackerrank"></i>
+                        HackerRank
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Me</h3>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/ranojit-das" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Ranojitdas" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://hackerrank.com/Ranojit_Das" target="_blank"><i class="fab fa-hackerrank"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <p>&copy; <span id="current-year"></span> Ranojit Das. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        VANTA.TOPOLOGY({
+            el: "#vanta-background",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x0984E3,
+            backgroundColor: 0x0A0A0A,
+            points: 20.00,
+            maxDistance: 25.00,
+            spacing: 15.00,
+            showDots: true,
+            size: 1.50,
+            speed: 1.50,
+            zoom: 1.50
+        })
+    </script>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html> 
